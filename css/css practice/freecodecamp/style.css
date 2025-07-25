@@ -1,0 +1,23 @@
+/* 1. Descendant Combinator (space) */
+.descendant-box p {
+  color: green;
+  font-weight: bold;
+}
+
+/* 2. Child Combinator ( > ) */
+.child-box > p {
+  color: blue;
+  border: 2px solid blue;
+}
+
+/* 3. Next Sibling Combinator ( + ) */
+.next-box h2 + p {
+  background-color: yellow;
+}
+
+/* 4. Subsequent Sibling Combinator ( ~ ) */
+.sibling-box h2 ~ p {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+}

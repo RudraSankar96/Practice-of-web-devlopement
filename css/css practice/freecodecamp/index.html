@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Combinators Practice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>CSS Combinators Demo</h1>
+
+  <!-- Descendant Example -->
+  <div class="descendant-box">
+    <h2>Descendant Example</h2>
+    <p>This is a paragraph inside .descendant-box</p>
+    <div>
+      <p>This is a nested paragraph</p>
+    </div>
+  </div>
+
+  <!-- Child Example -->
+  <div class="child-box">
+    <h2>Child Example</h2>
+    <p>This paragraph is direct child</p>
+    <div>
+      <p>This is nested paragraph (not direct child)</p>
+    </div>
+  </div>
+
+  <!-- Next Sibling Example -->
+  <div class="next-box">
+    <h2>Next-Sibling Example</h2>
+    <p>This paragraph is just after h2</p>
+    <p>This paragraph is not selected</p>
+  </div>
+
+  <!-- Subsequent Sibling Example -->
+  <div class="sibling-box">
+    <h2>Subsequent-Sibling Example</h2>
+    <p>First Paragraph</p>
+    <p>Second Paragraph</p>
+    <p>Third Paragraph</p>
+  </div>
+
+</body>
+</html>
