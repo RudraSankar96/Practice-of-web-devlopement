@@ -1,0 +1,46 @@
+button {
+  height: 35px;
+  margin: 5px 0px;
+  background-color: skyblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #333;
+}
+button:hover {
+  background-color: #333;
+  color: skyblue;
+}
+h1 {
+    text-align: center;
+  text-decoration: dotted;
+  background-color: rgb(250, 255, 176);
+  border: 2px solid black;
+  
+}
+img {
+  border: 2px solid black;
+}
+
+.color {
+  background-color: rgb(146, 79, 228);
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: center;
+}
+#bos {
+  background-color: white;
+  color: rgb(9, 9, 9);
+}
+body {
+  background-color: #93ebd9;
+}
+#iframe1 {
+  border: 2px solid black;
+}
